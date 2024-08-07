@@ -6,6 +6,13 @@
 body {
     background-color: #000000;
     color: #FFFFFF;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
 }
 
 .titulo-destaque {
