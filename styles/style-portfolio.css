@@ -37,6 +37,25 @@ body {
     font-style: normal;
 }
 
+.apresentacao__conteudo__botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo__botoes__botao {
+    color: #000000;
+    text-decoration: none;
+    width: 280px;
+    text-align: center;
+    background-color: #22D4FD;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
 .titulo-destaque {
     color: #22D4FD;
 }
