@@ -40,7 +40,7 @@ body {
     font-style: normal;
 }
 
-.conteudo__botoes {
+.apresentacao__conteudo__botoes {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,7 +48,7 @@ body {
     gap: 32px;
 }
 
-.conteudo__botoes__subtitulo {
+.apresentacao__conteudo__botoes__subtitulo {
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -56,6 +56,9 @@ body {
 }
 
 .apresentacao__conteudo__botoes__botao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     color: #FFFFFF;
     text-decoration: none;
     width: 380px;
