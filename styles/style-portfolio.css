@@ -71,6 +71,11 @@ body {
     font-weight: 600;
 }
 
+.apresentacao__conteudo__botoes__botao:hover {
+    background-color: darkslategray;
+    padding: 30px 15px;
+}
+
 .titulo-destaque {
     color: #22D4FD;
 }
