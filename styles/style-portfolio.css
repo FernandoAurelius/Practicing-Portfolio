@@ -8,7 +8,6 @@
 body {
     background-color: #000000;
     color: #FFFFFF;
-    height: 100vh;
     box-sizing: border-box;
 }
 
@@ -16,7 +15,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10% 20%;
+    margin: 8% 15%;
+    width: 75%;
 }
 
 .apresentacao__conteudo {
@@ -78,4 +78,14 @@ body {
 
 .titulo-destaque {
     color: #22D4FD;
+}
+
+.rodape {
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
