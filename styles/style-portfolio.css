@@ -48,10 +48,14 @@ body {
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 32px;
+}
+
+.apresentacao__imagem {
+    width: 50%;
 }
 
 .apresentacao__conteudo__titulo {
@@ -93,7 +97,7 @@ body {
     gap: 16px;
     color: var(--cor-secundaria);
     text-decoration: none;
-    width: 380px;
+    width: 50%;
     text-align: center;
     border: 2.5px double var(--cor-terciaria);
     padding: 21.5px 0;
