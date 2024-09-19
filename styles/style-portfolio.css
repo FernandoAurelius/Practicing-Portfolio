@@ -45,6 +45,7 @@ body {
     justify-content: space-between;
     margin: 5% 15%;
     width: 75%;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
@@ -116,4 +117,10 @@ body {
     font-size: 24px;
     font-family: var(--fonte-secundaria);
     font-weight: 400;
+}
+
+@media(1200px >= width) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
 }
