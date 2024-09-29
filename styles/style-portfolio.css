@@ -125,7 +125,7 @@ body {
 
 @media(max-width: 1200px) {
     .cabecalho {
-        padding: 10%;
+        padding: 5%;
     }
 
     .cabecalho__menu {
@@ -135,7 +135,8 @@ body {
     .apresentacao {
         flex-direction: column-reverse;
         padding: 5%;
-        gap: 41;
+        gap: 41px;
+        width: 90%;
     }
 
     .apresentacao__conteudo {
@@ -145,6 +146,14 @@ body {
 
     .apresentacao__imagem {
         width: 75%;
+    }
+
+    .apresentacao__conteudo__titulo {
+        text-align: center;
+    }
+
+    .apresentacao__conteudo__botoes__subtitulo {
+        text-align: center;
     }
 
     .rodape {
