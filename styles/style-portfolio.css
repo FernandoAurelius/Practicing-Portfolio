@@ -43,8 +43,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 5% 15%;
-    width: 75%;
+    padding: 5% 15%;
+    width: 70%;
     gap: 82px;
 }
 
@@ -123,9 +123,9 @@ body {
     font-weight: 400;
 }
 
-@media(1200px >= width) {
+@media(max-width: 1200px) {
     .cabecalho {
-        padding: 5%;
+        padding: 10%;
     }
 
     .cabecalho__menu {
@@ -134,5 +134,20 @@ body {
 
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5%;
+        gap: 41;
+    }
+
+    .apresentacao__conteudo {
+        width: 100%;
+        /* 'width: 100%;' would work properly as well */
+    }
+
+    .apresentacao__imagem {
+        width: 75%;
+    }
+
+    .rodape {
+        text-align: center;
     }
 }
