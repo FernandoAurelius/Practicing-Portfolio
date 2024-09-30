@@ -3,8 +3,8 @@
 :root {
     --cor-primaria: #6482AD;
     --cor-secundaria: #F5EDED;
-    --cor-terciaria: #7FA1C3;
-    --cor-hover: #E2DAD6;
+    --cor-terciaria: #2f5984;
+    --cor-hover: #323232;
 
     --fonte-principal: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -46,10 +46,13 @@ body {
     padding: 5% 15%;
     width: 70%;
     gap: 82px;
+    background-image: url('../assets/arif-riyanto-vJP-wZ6hGBg-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .apresentacao__conteudo {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 32px;
